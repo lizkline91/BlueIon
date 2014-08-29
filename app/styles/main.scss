@@ -1,0 +1,282 @@
+body {
+  background:transparent url("../images/background-Recovered.png");
+}
+.container{
+  width:65%;
+}
+.subscribe{
+  margin-top:7%;
+  float:right;
+  color:white;
+  font-size:.9em;
+  font-weight:300;
+  img{
+    margin-bottom:1.2%;
+    margin-left:6px;
+  }
+}
+.newsletter{
+  background:none;
+  border:none;
+}
+.newsletter:hover{
+  color:red;
+  font-size:1em;
+}
+.social{
+  margin-top:15px;
+  float:right;
+}
+.social div{
+  display:inline-block;
+  opacity:.5;
+  background-color: rgb(204,204,204);
+  border-bottom:3px solid grey;
+
+}
+.social div .dots{
+  background:none;
+}
+.navcontainer .row{
+  padding:15px;
+}
+.col-md-3{
+  margin:0px;
+  padding:2px;
+}
+.textcontainer .row{
+  padding:13px;
+}
+.col-md-4, .col-xs-12{
+  margin:0px;
+  padding:2px;
+}
+.imgbox .row{
+  padding-left:13px;
+  padding-right:13px;
+}
+.col-md-4, .col-xs-12, .col-md-8{
+  margin:0px;
+  padding:2px;
+}
+.navtab3{
+  background-color:#b4282e;
+  text-align:center;
+  color:white;
+  height:35px;
+  width:100%;
+  padding-top:6px;
+  font-size:1em;
+  font-weight:300;
+  border-bottom:3px solid grey;
+
+}
+.sk8t:hover{
+  color:red;
+  background-color:white;
+}
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+.line{
+  width:5%;
+}
+.carousel-inner{
+  border:6px solid white;
+  position:relative;
+  width:100%;
+}
+.carousel-inner .logo{
+   position:absolute;
+   width:100%;
+   z-index:20;
+}
+.carousel-inner .logo img{
+  margin-top:5%;
+  margin-left:1%;
+  width:40%;
+}
+.carousel-inner .grey{
+  position:absolute;
+  width:100%;
+  z-index:15;
+}
+.carousel-inner .grey img{
+  opacity:.3;
+}
+
+
+.carousel-indicators {
+  bottom:-50px;
+}
+.textcontainer{
+  margin-top:4%;
+}
+.textbox4{
+  width:100%;
+  background-color:white;
+  padding:4%;
+  margin-bottom:10px;
+}
+.text{
+  max-height:200px;
+  overflow:hidden;
+}
+.readMore{
+  float:middle;
+  padding-top:4%;
+  padding-bottom:4%;
+  background:white;
+  border:none;
+  color:red;
+}
+.readMore:hover{
+  color:grey;
+}
+.lance{
+ width:100%;
+ border:4px solid white;
+ margin-bottom:10px;
+}
+.rod{
+  width:100%;
+  border:4px solid white;
+  margin-bottom:10px;
+}
+.tmy{
+  width:100%;
+  border:4px solid white;
+  margin-bottom:10px;
+}
+.stevie{
+  width:100%;
+  border:4px solid white;
+  margin-top:-45%;
+  margin-bottom:10px;
+}
+.boardContainer{
+    text-align:center;
+    padding:0px; margin: 0 0 1em;
+    margin:5px;
+    height:305px;
+    background-color:white;
+    overflow-x: auto;
+    white-space: nowrap;
+    .board {
+      display:inline-block;
+      height:220px;
+      min-width:50px;
+      margin:5px; margin-top:15px;
+      background-repeat:no-repeat;
+      background-size:contain;
+    }
+  }
+.formLeft{
+  padding-left:4%;
+  font-color:grey;
+}
+.formRight{
+  margin-top:3%;
+}
+.formRight input{
+  margin-top:3%;
+  padding:1%;
+}
+.name, .email, .message{
+  width:95%;
+  float:right;
+  margin-right:2%;
+  margin-top:1%;
+  border-top:3px solid grey;
+  border-left:3px solid grey;
+}
+.message{
+  height:100px;
+}
+.btn-default{
+  float:right;
+  margin-top:1%;
+  margin-right:2.1%;
+}
+
+.form-horizontal{
+  background-color:white;
+  margin-top:8px;
+}
+
+.btn-default{
+  width:200px;
+  border-radius:0px;
+  background-color:red;
+  color:white;
+}
+.socialbottom img{
+  width:100%;
+}
+.socialbottom{
+  margin-right:20px;
+  margin-top:2%;
+  margin-bottom:10%;
+  float:left;
+}
+.socialbottom div{
+  display:inline-block;
+  width:15%;
+  opacity:.6;
+  background: rgb(204,204,204);
+
+}
+.socialbottom div:hover{
+  opacity:1;
+}
+.formRow{
+  margin-left:-9px;
+  margin-right:-9px;
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 700px) {
+	header {
+		position: absolute;
+	}
+
+	#menu-icon {
+		display:inline-block;
+	}
+
+	.navcontainer .row, .navcontainer:active .row {
+		display: none;
+		position: absolute;
+    z-index:30;
+		padding: 10px;
+		background: #fff;
+		right: 50%;
+		top: 10px;
+		width: 25%;
+		border-radius: 4px 0 4px 4px;
+	}
+
+	.navcontainer div {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	.navcontainer:hover .row {
+		display: block;
+	}
+}
